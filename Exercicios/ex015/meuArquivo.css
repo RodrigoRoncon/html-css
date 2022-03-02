@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+h1{
+    background-color: black; text-align: center;
+    color: blue;
+}
+h2{
+    color: aqua;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: justify;
+}

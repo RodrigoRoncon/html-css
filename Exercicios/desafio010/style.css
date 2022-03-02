@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+body{
+    background-color: #00AD17;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to top, #00610D, #257A30,  #34AD44);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+a{
+    font-weight: 900;
+    color: #014e0b;
+    text-decoration: none;
+}
+nav > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 14px;
+    margin: 1px;
+}
+nav > a:hover{
+    color: #257A30;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.418);
+}
+h2{
+    color: #00610D;
+    font-family: 'idroid';
+    text-align: none;
+    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.418);
+}
+
+h3{
+    color: #00610D;
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, #34ad4493, white );
+    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.418);
+    text-indent: 10px;
+}
+h4{
+    color: white;
+    background-color: #00610D;
+    padding: 10px;
+    margin: 0px;
+    text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.418);
+}
+img.img-center{
+    display: block;
+    margin: auto;
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 60px;
+    text-align: justify;
+}
+section#sec1{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 60px;
+}
+section#sec1 > p{
+    text-indent: 10px;
+    text-align: justify;
+}
+section#sec2{
+    background-color: #014e0b;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+section#sec3 > p{
+    text-indent: 10px;
+    text-align: justify;
+}
+section#sec3 > article >p{
+    padding: 10px;
+    text-indent: 10px;
+}
+article{
+    background-color: #34ad4488;
+    margin: 10px 10px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+article > h4{
+    border-radius: 10px 10px 0px 0px;
+}
+li{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background-color: #00610D;
+    color: white;
+    font-weight: bold;
+}

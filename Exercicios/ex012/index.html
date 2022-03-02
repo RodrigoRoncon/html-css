@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    <video src="midia/video-curso-menor.m4v" width="300" controls></video>
+
+    <video controls width="300" poster="imagens/minha-capa-png.png" width="300" height="560" loop>
+        <source src="midia/video-curso.mp4" type="video/mp4">
+        <source src="midia/video-curso-menor.m4v" type="video/m4v">
+        <p>Seu navegador nao tem compatibilidade com reproduçao de video</p>
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/1HlFxR56leg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
